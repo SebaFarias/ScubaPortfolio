@@ -1,3 +1,18 @@
-const Index = ()=>{ return (<h1>Hola po loco</h1>)}
+import HeroContainer from '../components/Hero/HeroContainer'
+import SkillsContainer from '../components/skills/SkillsContainer'
+import ExperienceContainer from '../components/experience/ExperienceContainer'
+import ProjectsContainer from '../components/projects/ProjectsContainer'
 
-export default Index
+const App = ()=>{ 
+  
+  return (
+    <>
+      <HeroContainer/>
+      <SkillsContainer/>
+      <ExperienceContainer/>
+      <ProjectsContainer/>
+    </>
+  )
+}
+
+export default App
