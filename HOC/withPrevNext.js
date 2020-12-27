@@ -16,11 +16,17 @@ const withPrevNext = (WrappedComponent,list) => {
       const newIndex = index - 1 < 0 ? length - 1 : index - 1
       setSelected(listNames[newIndex])
     }
+    const select = selectedIndex => {
+      if(selectedIndex<0) return setSelected(listNames[0])
+      if(selectedIndex>=length) return setSelected(listNames[length-1])
+      setSelected(listNames[selectedIndex])
+    }
     return(
       <WrappedComponent
         prev={prev}
         next={next}
         selected={selected}
+        select={select}
         {...WrappedComponent.props}    
       />
     )

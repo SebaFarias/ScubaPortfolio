@@ -3,10 +3,16 @@ import SkillsList from "./SkillsList"
 const SkillsSelector = ({prev,next,selected}) => {
 
   return (
-    <div className={'skills selector-container'}>
+    <div className={'selector-container'}>
       <button onClick={prev}>previus</button>
       <SkillsList/>  
       <button onClick={next}>next</button>
+      <style jsx>{`
+        .selector-container{
+          display: flex;
+          margin: auto;
+        }
+      `}</style>
     </div>
   )
 }
