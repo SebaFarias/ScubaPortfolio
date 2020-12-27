@@ -1,9 +1,11 @@
-const SkillsSelector = ({prev,next}) => {
+import SkillsList from "./SkillsList"
+
+const SkillsSelector = ({prev,next,selected}) => {
 
   return (
     <div className={'skills selector-container'}>
       <button onClick={prev}>previus</button>
-      <h2>Selector</h2>  
+      <SkillsList/>  
       <button onClick={next}>next</button>
     </div>
   )
