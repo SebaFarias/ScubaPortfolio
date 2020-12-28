@@ -19,10 +19,7 @@ const SkillsContainer = ({prev,next,selected}) => {
           .skills-container{
             display: flex;
             height: 85vh;
-          }
-          h2{
-            text-align: center;
-          }
+          }          
         `}</style>
     </section>
   )
