@@ -4,8 +4,12 @@ body{
   box-sizing: border-box;
   overflow-x: hidden;
   position: relative;
-  max-height: 300vh;
 }
 h2{
   text-align: center;
+}
+section{
+  height: 85vh;
+  margin: 20vh 1rem;
+  background: rgba(255, 127, 80, 0.5)
 }

@@ -13,12 +13,9 @@ const SkillsContainer = ({prev,next,selected}) => {
         <SkillsContent name={skillsList[selected]}/>
       </div>
         <style jsx>{`
-          .skills{
-            background: coral;
-          }
           .skills-container{
             display: flex;
-            height: 85vh;
+            height: 100%;
           }          
         `}</style>
     </section>

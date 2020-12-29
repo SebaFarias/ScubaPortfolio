@@ -1,6 +1,17 @@
 const ExperienceContainer = () => {
   return (
-    <h1>Aquí van a ir los Trabajos anteriores</h1>
+    <section className='experience'>
+      <h2>Aquí van a ir los Trabajos anteriores</h2>
+      <div className='experience-container'>
+
+      </div>
+      <style jsx>{`
+        .experience-container{
+          display: flex;
+          height: 100%;
+        }  
+      `}</style>
+    </section>
   )
 }
 
