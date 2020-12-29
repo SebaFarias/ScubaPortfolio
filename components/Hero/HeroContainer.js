@@ -10,6 +10,7 @@ const HeroContainer = () => {
       <style jsx>{`
         .hero{
           margin: 0;
+          background: #f3c279;
         }
         .hero-container{
           display: flex;
@@ -17,6 +18,7 @@ const HeroContainer = () => {
         }  
         h1{
           margin: 0;
+          text-align: center;
         }
       `}</style>
     </section>  
