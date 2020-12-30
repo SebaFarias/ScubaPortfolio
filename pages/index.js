@@ -1,16 +1,16 @@
 import BackgroundOcean from '../components/backgroundOcean/BackgroundOcean'
-// import HeroContainer from '../components/hero/HeroContainer'
 import SkillsContainer from '../components/skills/SkillsContainer'
 import ExperienceContainer from '../components/experience/ExperienceContainer'
 import ProjectsContainer from '../components/projects/ProjectsContainer'
 import Footer from '../components/footer/Footer'
+import HeaderContainer from '../components/header/HeaderContainer'
 
 const App = ()=>{ 
   
   return (
     <>
       <BackgroundOcean/>
-      {/* <HeroContainer/> */}
+      <HeaderContainer/>
       <SkillsContainer/>
       <ExperienceContainer/>
       <ProjectsContainer/>

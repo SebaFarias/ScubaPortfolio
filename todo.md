@@ -10,7 +10,13 @@
 - [ ] Background color changing by Scroll
 ## 29/12/20
 - [X] Background color changing by Scroll
-- [ ] 
+## Hero 30/12/20 
+- [ ] Elegir texto(título, subtítulo) y call to Action
+- [ ] Hacer olas
+- [ ] Poner sol y reflfejos
+- [ ] Poner Vehículo q avanza (Barco pirata?, lancha?)
+- [ ] Crear un fondo de un par de capas para agregar parallax
 
-Waves SVG editor: https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
+Waves SVG editor => https://smooth.ie/blogs/news/svg-wavey-transitions-between-sections
 Next.js PortFolio => https://brittanychiang.com/
+Desingn, for taking ideas => https://www.instagram.com/p/CJY2dWEMpA1/

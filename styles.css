@@ -4,12 +4,13 @@ body{
   box-sizing: border-box;
   overflow-x: hidden;
   position: relative;
+  background: linear-gradient(90deg, hsl(234,87%,9%) 0%, hsl(220,84%,37%) 50%, hsl(232,88%,12%)100%);
 }
 h2{
   text-align: center;
 }
 section{
   height: 85vh;
-  margin: 20vh 1rem;
-  background: rgba(29, 28, 28, 0.5)
+  margin: 20vh 2vw;
+  background: rgba(29, 28, 28, 0.5);
 }

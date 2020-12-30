@@ -5,9 +5,7 @@ const Footer = () => {
     <div className='footer'>
       <style jsx>{`
         .footer{
-          position: absolute;
-          left: 0;
-          bottom: -300;
+          margin-top: 800px;
           width: 100%;
           height: 150px;
           background: #f3c279;

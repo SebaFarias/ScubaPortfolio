@@ -13,10 +13,9 @@ const BackgroundOcean = () => {
     <div className='background-ocean'>
       <style jsx>{`
         .background-ocean{
-          position: absolute;
-          top: ${style.top}px;
+          position: sticky;
+          top: 0;
           background: ${style.background};
-          left: -10vw;
           width: 120vw;
           height: 120vh;
           margin: -10vh -10vw;
